@@ -1,0 +1,117 @@
+/* for whole web page */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* for body (visible area of web page) except title bar */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+/* for menubar  */
+nav{
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+/* for logo image  */
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+/* for menu items of ul */
+.menu{
+    display: flex;
+    gap: 65px;
+    list-style: none;
+}
+/* for menu items os ul li > a */
+.menu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* for hero section */
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 20px;
+    gap: 160px;
+}
+/* for hero section left side */
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+/* for hero-left h1 */
+.hero-left h1{
+    font-size: 50px;
+}
+/* for hero-left h1 span */
+.hero-left h1 span{
+    color: red;
+}
+/* for right side of hero section */
+.hero-right{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 50%;
+}
+/* for all input box  */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"],
+input[type="date"],
+select
+ {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+.gender{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px
+}
+.terms{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 30px;
+}
